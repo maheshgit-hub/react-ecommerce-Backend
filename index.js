@@ -9,7 +9,7 @@ const categoriesRouter = require("./routes/Categories");
 const brandsRouter = require("./routes/Brands");
 const usersRouter = require("./routes/Users");
 const authRouter = require("./routes/Auth");
-const cartRouter = require("./routes/Carts");
+const cartRouter = require("./routes/Cart");
 const ordersRouter = require("./routes/Order");
 //middlewares
 server.use(cors({ exposedHeaders: ["X-Total-Count"] }));
